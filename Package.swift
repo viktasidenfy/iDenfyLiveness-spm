@@ -28,6 +28,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/airbnb/lottie-spm.git", "4.4.3"..<"4.4.4"),
+        .package(url: "https://github.com/getsentry/sentry-cocoa", "8.28.0"..<"8.28.1"),
     ],
     targets: [
         //IdenfyViews
