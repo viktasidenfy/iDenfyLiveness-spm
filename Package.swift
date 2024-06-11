@@ -28,7 +28,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/airbnb/lottie-spm.git", "4.4.3"..<"4.4.4"),
-        .package(url: "https://github.com/getsentry/sentry-cocoa", "8.28.0"..<"8.28.1"),
     ],
     targets: [
         //IdenfyViews
@@ -94,9 +93,6 @@ let package = Package(
                     condition: .when(platforms: [.iOS])),
                 .product(name: "Lottie",
                          package: "lottie-spm",
-                         condition: .when(platforms: [.iOS])),
-                .product(name: "Sentry",
-                         package: "sentry-cocoa",
                          condition: .when(platforms: [.iOS])),
                 .target(name: "idenfycore",
                         condition: .when(platforms: [.iOS])),
