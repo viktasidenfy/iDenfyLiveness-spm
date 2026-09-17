@@ -1,9 +1,9 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
-let version = "9.2.1"
+let version = "9.2.2"
 
 enum Checksums {
     static let iDenfyInternalLoggerChecksum = "acfeff40dc81ed483a483f13704e6b5e959b0c737d9926a3098d9f69eee20856"
